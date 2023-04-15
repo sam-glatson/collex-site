@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,7 +6,31 @@
 
 @layer components {
     .header-menu-list li{
-        @apply  pl-12 hover:text-apache-500 cursor-pointer flex relative py-1;
+        @apply  pl-12 hover:text-apache-500 cursor-pointer flex relative py-1 text-base leading-26 font-bold;
+    }
+
+    .container {
+        @apply lg:max-w-7xl w-full mx-auto px-4;
     }
     
+    .social-shares > li {
+        @apply flex items-center space-x-[16px];
+    }
+
+    .social-shares > li >p {
+        @apply text-base leading-[26px] text-shark-500 font-medium;
+    }
+}
+
+.banner-image-animation {
+    animation-name: banner-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+@keyframes banner-animation {
+    0%{left: 0px;right: 0px;}
+   50%{left: 20px;right: 0px;}
+   100%{left: 0px;right: 20px;}
 }

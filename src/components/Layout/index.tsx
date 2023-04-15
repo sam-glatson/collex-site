@@ -2,16 +2,20 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Banner from "../Home/Banner";
+import AboutUs from "../AboutUs";
+import Services from "../Services";
 
 const Layout = () => {
     return (
         <>
             <div className="flex">
                 <Header />
-                <div className="w-full sm:ml-[290px] lg:ml-[320px]">
-                    <Banner />
-                    <Footer />
-                </div>
+            </div>
+            <div className="lg:ml-[290px] xl:ml-[320px]">
+                <Banner />
+                <Footer />
+                <AboutUs />
+                <Services />
             </div>
         </>
     );
