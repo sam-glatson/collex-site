@@ -3,16 +3,8 @@ import React from "react";
 const FinanceIcon = () => {
     return (
         <svg width="54" height="62" viewBox="0 0 54 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_3167_162)">
-                <mask
-                    id="mask0_3167_162"
-                    // style="mask-type:luminance"
-                    maskUnits="userSpaceOnUse"
-                    x="0"
-                    y="0"
-                    width="54"
-                    height="62"
-                >
+            <g clipPath="url(#clip0_3167_162)">
+                <mask id="mask0_3167_162" maskUnits="userSpaceOnUse" x="0" y="0" width="54" height="62">
                     <path d="M53.1484 0.622192H0.148438V61.6222H53.1484V0.622192Z" fill="white" />
                 </mask>
                 <g mask="url(#mask0_3167_162)">

@@ -1,3 +1,5 @@
+/* @import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css"; */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @tailwind base;
 @tailwind components;
@@ -20,6 +22,8 @@
     .social-shares > li >p {
         @apply text-base leading-[26px] text-shark-500 font-medium;
     }
+
+  
 }
 
 .banner-image-animation {
@@ -34,3 +38,57 @@
    50%{left: 20px;right: 0px;}
    100%{left: 0px;right: 20px;}
 }
+
+.project-image:hover >div{
+    display: block;
+   animation-name:project-card-animation;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+   animation-timing-function: linear;
+   animation-direction: normal;
+}
+
+@keyframes project-card-animation {
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+/* .blog-image:hover {
+    animation-name: Blog-image;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+
+@keyframes  Blog-image {
+    0%{transform: scale(0); }
+    50%{transform: scale(1);}
+    100%{transform: scale(2);}
+} */
+
+
+.slick-arrow{
+    display: none !important;
+}
+
+.slick-list {
+    @apply  lg:max-w-3xl;
+}
+
+.slick-slide {
+    @apply px-4 sm:px-16 py-10 rounded-20 bg-ship-gray-500;
+}
+
+
+.slick-list {
+    margin-inline: auto !important;
+    margin-block: 80px !important;
+}
+
+/* .slick-list {
+    background-image: url("/public//assets/images/ellipse-image.png") !important;
+    position: absolute;
+    z-index: 10px;
+} */

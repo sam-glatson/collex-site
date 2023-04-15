@@ -25,7 +25,7 @@ const Banner = () => {
                         <p className="mt-5 text-xl font-normal leading-[32px]">
                             More than 10 years experience in the finance industry
                         </p>
-                        <div className="mt-10 flex flex-row items-center justify-center max-[380px]:flex-col max-[380px]:space-y-2.5 min-[380px]:space-x-5 lg:justify-normal">
+                        <div className="mt-10 flex flex-row items-center justify-center space-x-5 max-[380px]:flex-col max-[380px]:space-y-2.5 lg:justify-normal">
                             <button
                                 className="cursor-pointer rounded-[10px] border border-abbey-500 border-opacity-20 px-10"
                                 id="about"

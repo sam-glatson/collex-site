@@ -3,16 +3,8 @@ import React from "react";
 const MarketingIcon = () => {
     return (
         <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_3167_139)">
-                <mask
-                    id="mask0_3167_139"
-                    // style="mask-type:luminance"
-                    maskUnits="userSpaceOnUse"
-                    x="0"
-                    y="0"
-                    width="63"
-                    height="63"
-                >
+            <g clipPath="url(#clip0_3167_139)">
+                <mask id="mask0_3167_139" maskUnits="userSpaceOnUse" x="0" y="0" width="63" height="63">
                     <path d="M62.1484 0.122192H0.148438V62.1222H62.1484V0.122192Z" fill="white" />
                 </mask>
                 <g mask="url(#mask0_3167_139)">

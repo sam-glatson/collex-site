@@ -2,13 +2,13 @@ import BehanceIcon from "@/components/UI/BehanceIcon";
 import FacebookIcon from "@/components/UI/FacebookIcon";
 import ScrollDownIcon from "@/components/UI/ScrollDownIcon";
 import TwitterIcon from "@/components/UI/TwitterIcon";
-import Youtube from "@/components/UI/Youtube";
+import Youtube from "@/components/UI/YoutubeIcon";
 import React from "react";
 
 const SocialShare = () => {
     return (
-        <div className="mt-[120px] flex flex-col items-center justify-between space-y-5 font-DMSans lg:flex-row lg:space-y-0">
-            <ul className="social-shares flex flex-col space-y-2.5 min-[500px]:flex-row  min-[500px]:space-x-4 min-[500px]:space-y-0 sm:space-x-10">
+        <div className="mt-5 flex flex-col items-center justify-between space-y-5 font-DMSans sm:mt-10 lg:mt-[120px] lg:flex-row lg:space-y-0">
+            <ul className="social-shares flex flex-col space-y-2.5 sm:flex-row sm:space-x-10 sm:space-x-4 sm:space-y-0">
                 <li>
                     <span>
                         <FacebookIcon />
