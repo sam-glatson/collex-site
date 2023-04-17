@@ -68,7 +68,7 @@ export default class Responsive extends Component {
                             <SliderCard key={data} />
                         ))}
                     </Slider>
-                    <div className="top-30 absolute right-5 flex animate-bounce justify-end">
+                    <div className="absolute right-5 top-7.5 flex animate-bounce justify-end">
                         <Image src={PuzzleImage} alt="puzzle-image" width="77" className="h-[77px] object-cover" />
                     </div>
                     <div className="news-image absolute bottom-4 left-4 sm:bottom-8">
