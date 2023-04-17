@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .header-menu-list li{
+        @apply  pl-12 hover:text-apache-500 cursor-pointer flex relative py-1 text-base leading-6.5 font-bold;
+    }
+
+    .container {
+        @apply lg:max-w-7xl w-full mx-auto px-4;
+    }
+    
+    .social-shares > li {
+        @apply flex items-center space-x-4;
+    }
+
+    .social-shares > li >p {
+        @apply text-base leading-6.5 text-shark-500 font-medium;
+    }
+}
+
+.banner-image-animation {
+    animation-name: banner-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+@keyframes banner-animation {
+    0%{left: 0px;right: 0px;}
+   50%{left: 20px;right: 0px;}
+   100%{left: 0px;right: 20px;}
+}
+
+.project-image:hover >div{
+    display: block;
+   animation-name:project-card-animation;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+   animation-timing-function: linear;
+   animation-direction: normal;
+}
+
+@keyframes project-card-animation {
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+/* .blog-image:hover {
+    animation-name: Blog-image;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+
+@keyframes  Blog-image {
+    0%{transform: scale(0); }
+    50%{transform: scale(1);}
+    100%{transform: scale(2);}
+} */
+
+
+.slick-arrow{
+    display: none !important;
+}
+
+.slick-list {
+    @apply  lg:max-w-3xl xl:max-w-7xl !important;
+}
+
+.slick-slide {
+    @apply px-4 sm:px-16 pt-10 pb-20 rounded-20 bg-ship-gray-500;
+}
+
+.slick-dots {
+    @apply top-24 right-2 lg:right-6 lg:top-2 xl:top-20 sm:top-10 !important;
+}
+.slick-list {
+    margin-inline: auto !important;
+    margin-block: 80px !important;
+}
+
+.slick-slide {
+    min-height: 503px !important;
+    display: flex !important;
+    align-items: end !important;
+    position: relative;
+}
+
+.slick-track {
+    width: max-content !important;
+}
+
+.news-image {
+    animation-name: news-image-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes news-image-animation {
+    0%{left: 16px;}
+    50%{left: 26px;}
+    100%{left: 16px;}
+}
+
+.slick-dots li.slick-active button:before {
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50% !important;
+}
+
+.slick-dots li button:before {
+   background-image: url("../../public/assets/images/slider-profile.png");
+   background-size: cover;
+   content: "" !important;
+}
+
+.slick-dots li button:before {
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 50% !important;
+}
+
+.slick-dots li {
+@apply mx-3 sm:mx-6 !important;
+}
+
+.play-button:hover::before {
+    animation-name: play-button-animation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    border-width: 3px;
+}
+
+@keyframes play-button-animation {
+    0%{border-left-color: #a8abff;}
+    50%{border-left-color: #a8abff;border-top-color: #a8abff;}
+    100%{border-left-color: #a8abff;border-top-color: #a8abff;border-right-color: #a8abff;}
+}
