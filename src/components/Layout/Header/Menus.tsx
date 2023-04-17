@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Menus = () => {
-    const [menu, setMenu] = useState(0);
+    const [menu, setMenu] = useState(1);
     const handelMenu = (props: any) => {
         setMenu(props);
     };

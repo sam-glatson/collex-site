@@ -238,6 +238,12 @@ module.exports = {
             gap: {
                 7.5: "30px",
             },
+            width: {
+                9.5: "38px",
+            },
+            height: {
+                9.5: "38px",
+            },
         },
     },
     plugins: [],
