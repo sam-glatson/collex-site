@@ -6,6 +6,8 @@ import SliderCard from "./SliderCard";
 import Image from "next/image";
 import CubeImage from "@/public/assets/images/slider-cube-image.png";
 import EllipseImage from "@/public/assets/images/ellipse-image.png";
+import PuzzleImage from "@/public/assets/images/puzzle-image.png";
+import NewsImage from "@/public/assets/images/news-image.png";
 
 export default class Responsive extends Component {
     render() {
@@ -44,13 +46,13 @@ export default class Responsive extends Component {
             ],
         };
         return (
-            <section className="relative mt-[120px] bg-shark-500 px-4 py-5 font-DMSans lg:px-[120px]">
+            <section className="relative mt-12 bg-shark-500 px-4 py-10 font-DMSans md:mt-120 lg:px-120">
                 <Image
                     src={CubeImage}
                     alt="cube-image"
                     width="150"
                     height="97"
-                    className="absolute -left-px -top-[80px] -z-[1] object-cover"
+                    className="absolute -left-px -top-80 -z-1 object-cover"
                 />
                 <div className="relative mx-auto max-w-4xl">
                     <Image
@@ -58,7 +60,7 @@ export default class Responsive extends Component {
                         alt="cube-image"
                         width="178"
                         height="158"
-                        className="absolute -top-11 left-0 object-cover xl:left-0 2xl:left-[60px]"
+                        className="absolute -top-11 left-0 object-cover"
                     />
 
                     <Slider {...settings}>
@@ -66,13 +68,19 @@ export default class Responsive extends Component {
                             <SliderCard key={data} />
                         ))}
                     </Slider>
+                    <div className="top-30 absolute right-5 flex animate-bounce justify-end">
+                        <Image src={PuzzleImage} alt="puzzle-image" width="77" className="h-[77px] object-cover" />
+                    </div>
+                    <div className="news-image absolute bottom-4 left-4 sm:bottom-8">
+                        <Image src={NewsImage} alt="logo" width="82" height="89" className="object-cover" />
+                    </div>
                 </div>
                 <Image
                     src={CubeImage}
                     alt="cube-image"
                     width="128"
                     height="84"
-                    className="absolute -bottom-[15px] -right-px object-cover"
+                    className="absolute -bottom-15 right-0 object-cover"
                 />
             </section>
         );

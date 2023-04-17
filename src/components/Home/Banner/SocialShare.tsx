@@ -7,37 +7,37 @@ import React from "react";
 
 const SocialShare = () => {
     return (
-        <div className="mt-5 flex flex-col items-center justify-between space-y-5 font-DMSans sm:mt-10 lg:mt-[120px] lg:flex-row lg:space-y-0">
-            <ul className="social-shares flex flex-col space-y-2.5 sm:flex-row sm:space-x-10 sm:space-x-4 sm:space-y-0">
+        <div className="mt-5 flex flex-col items-center justify-between space-y-5 font-DMSans sm:mt-10 lg:mt-120 lg:flex-row lg:space-y-0">
+            <ul className="social-shares grid grid-cols-2 gap-5 sm:grid-cols-4">
                 <li>
-                    <span>
+                    <div>
                         <FacebookIcon />
-                    </span>
+                    </div>
                     <p>FACEBOOK</p>
                 </li>
                 <li>
-                    <span>
+                    <div>
                         <Youtube />
-                    </span>
+                    </div>
                     <p>YOUTUBE</p>
                 </li>
                 <li>
-                    <span>
+                    <div>
                         <TwitterIcon />
-                    </span>
+                    </div>
                     <p>TWITTER</p>
                 </li>
                 <li>
-                    <span>
+                    <div>
                         <BehanceIcon />
-                    </span>
+                    </div>
                     <p>BEHANCE</p>
                 </li>
             </ul>
             <div className="flex space-x-3.5">
-                <span className="animate-bounce">
+                <div className="animate-bounce">
                     <ScrollDownIcon />
-                </span>
+                </div>
                 <p>SCROLL DOWN</p>
             </div>
         </div>

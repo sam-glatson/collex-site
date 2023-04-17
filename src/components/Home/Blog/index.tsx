@@ -5,33 +5,33 @@ import StudentsImage from "@/public/assets/images/students-image.png";
 import Image from "next/image";
 const Blog = () => {
     return (
-        <section className="mt-5 px-4 py-5 font-DMSans md:mt-10 2xl:mt-[120px] 2xl:px-[56px] min-[1900px]:px-[120px]">
+        <section className="mt-5 px-4 py-5 font-DMSans md:mt-10 2xl:mt-120 2xl:px-14 min-[1900px]:px-120">
             <div className="space-y-12">
                 <div className="flex flex-col items-center justify-center">
-                    <h6 className="flex items-center text-lg font-medium leading-[22px] text-manatee-500 before:mr-2.5 before:h-3 before:w-3 before:rounded-full before:bg-cornflower-lilac-500 before:content-['']">
+                    <h6 className="flex items-center text-lg font-medium leading-22 text-manatee-500 before:mr-2.5 before:h-3 before:w-3 before:rounded-full before:bg-cornflower-lilac-500 before:content-['']">
                         Blog & Article
                     </h6>
-                    <h1 className="pt-5 text-3xl font-bold text-shark-500 2xl:text-6xl 2xl:leading-[72px]">
+                    <h1 className="pt-5 text-3xl font-bold text-shark-500 2xl:text-6xl 2xl:leading-72">
                         Check blog post
                     </h1>
                 </div>
-                <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 xl:grid-cols-3">
+                <div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">
                     <div>
                         <Image
                             src={CoupleImage}
                             alt="couple-image"
                             width="412"
                             height="315"
-                            className="cursor-pointer rounded-xl object-cover hover:scale-105"
+                            className="w-full cursor-pointer rounded-xl object-cover hover:scale-105"
                         />
                         <div className="mt-7 flex space-x-4">
-                            <div className="min-[375]:px-5 rounded-[10px] bg-[#5856e91a] px-2.5 ">
-                                <p className="text-sm font-bold uppercase  leading-[35px] text-blue-ribbon-500">
+                            <div className="min-[375]:px-5 rounded-10 bg-[#5856e91a] px-2.5">
+                                <p className="text-sm font-bold uppercase  leading-35 text-blue-ribbon-500">
                                     Development
                                 </p>
                             </div>
-                            <div className="min-[375]:px-5 rounded-[10px] bg-[#5856e91a] px-2.5">
-                                <p className="text-sm font-bold uppercase  leading-[35px] text-manatee-500">
+                            <div className="min-[375]:px-5 rounded-10 bg-[#5856e91a] px-2.5">
+                                <p className="text-sm font-bold uppercase  leading-35 text-manatee-500">
                                     February. 3.2023
                                 </p>
                             </div>
@@ -46,16 +46,16 @@ const Blog = () => {
                             alt="cloths-image"
                             width="412"
                             height="315"
-                            className="cursor-pointer rounded-xl object-cover hover:scale-105"
+                            className="w-full cursor-pointer rounded-xl object-cover hover:scale-105"
                         />
                         <div className="mt-7 flex space-x-4">
-                            <div className="min-[375]:px-5 rounded-[10px] bg-[#5856e91a] px-2.5">
-                                <p className="text-sm font-bold uppercase  leading-[35px] text-blue-ribbon-500">
+                            <div className="min-[375]:px-5 rounded-10 bg-[#5856e91a] px-2.5">
+                                <p className="text-sm font-bold uppercase leading-35 text-blue-ribbon-500">
                                     Development
                                 </p>
                             </div>
-                            <div className="min-[375]:px-5 rounded-[10px] bg-[#5856e91a] px-2.5">
-                                <p className="text-sm font-bold uppercase  leading-[35px] text-manatee-500">
+                            <div className="min-[375]:px-5 rounded-10 bg-[#5856e91a] px-2.5">
+                                <p className="text-sm font-bold uppercase leading-35 text-manatee-500">
                                     February. 3.2023
                                 </p>
                             </div>
@@ -70,16 +70,16 @@ const Blog = () => {
                             alt="students-image"
                             width="412"
                             height="315"
-                            className="cursor-pointer rounded-xl object-cover hover:scale-105"
+                            className="w-full cursor-pointer rounded-xl object-cover hover:scale-105"
                         />
                         <div className="mt-7 flex space-x-4">
-                            <div className="min-[375]:px-5 rounded-[10px] bg-[#5856e91a] px-2.5">
-                                <p className="text-sm font-bold uppercase  leading-[35px] text-blue-ribbon-500">
+                            <div className="min-[375]:px-5 rounded-10 bg-[#5856e91a] px-2.5">
+                                <p className="text-sm font-bold uppercase  leading-35 text-blue-ribbon-500">
                                     Development
                                 </p>
                             </div>
-                            <div className="min-[375]:px-5 rounded-[10px] bg-[#5856e91a] px-2.5">
-                                <p className="text-sm font-bold uppercase  leading-[35px] text-manatee-500">
+                            <div className="min-[375]:px-5 rounded-10 bg-[#5856e91a] px-2.5">
+                                <p className="text-sm font-bold uppercase  leading-35 text-manatee-500">
                                     February. 3.2023
                                 </p>
                             </div>
