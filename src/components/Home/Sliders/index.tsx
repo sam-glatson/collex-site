@@ -54,7 +54,7 @@ export default class Responsive extends Component {
                     height="97"
                     className="absolute -left-px -top-80 -z-1 object-cover"
                 />
-                <div className="relative mx-auto max-w-[80rem]">
+                <div className="project-image-card relative mx-auto max-w-[80rem]">
                     <Image
                         src={EllipseImage}
                         alt="cube-image"

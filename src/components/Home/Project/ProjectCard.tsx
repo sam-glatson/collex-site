@@ -9,7 +9,7 @@ const ProjectCard = (props: any) => {
             <Image
                 src={data.image}
                 alt="project-image"
-                className="w-full cursor-pointer rounded-10 object-cover"
+                className="project-image-card relative w-full cursor-pointer rounded-10 object-cover"
                 width="633"
                 height="395"
             />
