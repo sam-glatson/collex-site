@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const Specification = () => {
     return (
-        <section className="px-4 py-5 font-DMSans sm:px-14 lg:px-6 2xl:px-14 min-[1900px]:px-120">
-            <div className="my-5 grid grid-cols-1 items-center justify-items-center space-y-5 md:my-10 lg:grid-cols-2 lg:justify-items-start lg:space-y-0">
-                <div className="relative">
+        <section className="px-4 py-5 font-DMSans sm:px-14 lg:px-6 2xl:px-14 min-[1900px]:px-120" id="case-studies">
+            <div className="my-5 grid grid-cols-1 items-center justify-items-center space-y-5 overflow-x-clip md:my-10 lg:grid-cols-2 lg:justify-items-start lg:space-y-0">
+                <div className="left-right-animation relative">
                     <Image
                         alt="puzzle-image"
                         src={PuzzleImage}
@@ -17,7 +17,7 @@ const Specification = () => {
                     />
                     <Image alt="choose-image" src={ChooseImage} className="relative -z-10 object-cover" />
                 </div>
-                <div className="sm:pl-5">
+                <div className="right-left-animation sm:pl-5">
                     <h6 className="flex items-center text-lg font-medium leading-22 text-manatee-500 before:mr-2.5 before:h-3 before:w-3 before:rounded-full before:bg-cornflower-lilac-500 before:content-['']">
                         Why Choose us
                     </h6>

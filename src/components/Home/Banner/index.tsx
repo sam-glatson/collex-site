@@ -12,12 +12,23 @@ const Banner = () => {
     return (
         <section className="flex flex-col font-DMSans">
             <div className="flex justify-between">
-                <Image src={HandImage} alt="logo" width="214" height="161" className="object-cover" />
-                <Image src={NewsImage} alt="logo" width="84" className="mt-7 h-[78px] object-cover sm:mr-10" />
+                <Image
+                    src={HandImage}
+                    alt="logo"
+                    width="214"
+                    height="161"
+                    className="w-[140px] object-cover sm:w-[214px]"
+                />
+                <Image
+                    src={NewsImage}
+                    alt="logo"
+                    width="84"
+                    className="mt-1.5 h-[78px] object-cover sm:mr-10 sm:mt-7"
+                />
             </div>
             <div className="px-5 sm:px-14 lg:px-6 xl:px-14 min-[1900px]:px-120">
-                <div className="grid grid-cols-1 items-center space-y-2.5 lg:grid-cols-2 lg:space-y-0">
-                    <div className="text-center lg:text-left">
+                <div className="grid grid-cols-1 items-center space-y-2.5 overflow-x-clip lg:grid-cols-2 lg:space-y-0">
+                    <div className="left-right-animation text-center lg:text-left">
                         <h1 className="text-5xl font-bold text-shark-500 sm:text-10xl 2xl:text-15xl 2xl:leading-138">
                             Global...
                             <br /> Solution
@@ -32,7 +43,7 @@ const Banner = () => {
                                 name="about"
                                 type="button"
                             >
-                                <div className="relative flex items-center space-x-4 before:absolute before:bottom-0 before:h-[3px] before:w-full before:bg-cornflower-lilac-500 before:content-['']">
+                                <div className="right-arrow-icon-animation relative flex items-center space-x-4 before:absolute before:bottom-0 before:h-[3px] before:w-full before:bg-cornflower-lilac-500 before:content-['']">
                                     <span className="text-lg font-bold leading-70">About Collax</span>
                                     <div>
                                         <RightArrowIcon />
@@ -46,7 +57,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative">
+                    <div className="right-left-animation relative">
                         <Image
                             src={BannerImage}
                             alt="banner-image"

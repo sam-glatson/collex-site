@@ -10,8 +10,8 @@ import RightArrowIcon from "../../UI/RightArrowIcon";
 const AboutUs = () => {
     return (
         <section className="mt-7 px-5 font-DMSans sm:mt-10 sm:px-14 lg:mt-130 min-[1900px]:px-120">
-            <div className="grid grid-cols-1 items-center space-y-5 lg:grid-cols-2 lg:space-y-0">
-                <div className="relative">
+            <div className="grid grid-cols-1 items-center space-y-5 overflow-x-clip lg:grid-cols-2 lg:space-y-0">
+                <div className="left-right-animation relative">
                     <Image
                         src={PuzzleImage}
                         alt="puzzle-image"
@@ -19,13 +19,9 @@ const AboutUs = () => {
                         width="148"
                         height="148"
                     />
-                    <Image
-                        src={ManImage}
-                        alt="man-image"
-                        className="banner-image-animation relative object-cover 3xl:w-full"
-                    />
+                    <Image src={ManImage} alt="man-image" className="banner-image-animation object-cover 3xl:w-full" />
                 </div>
-                <div className="lg:pl-7">
+                <div className="right-left-animation relative lg:pl-7">
                     <h6 className="flex items-center text-lg font-medium leading-22 text-manatee-500 before:mr-2.5 before:h-3 before:w-3 before:rounded-full before:bg-cornflower-lilac-500 before:content-['']">
                         About Company
                     </h6>
@@ -43,7 +39,7 @@ const AboutUs = () => {
                         name="about"
                         type="button"
                     >
-                        <div className="relative flex items-center space-x-4 before:absolute before:bottom-0 before:-z-10 before:h-[3px] before:w-full before:bg-portage-500 before:content-['']">
+                        <div className="right-arrow-icon-animation relative flex items-center space-x-4 before:absolute before:bottom-0 before:-z-10 before:h-[3px] before:w-full before:bg-portage-500 before:content-['']">
                             <span className="text-lg font-bold leading-70">Talk With Expert</span>
                             <div>
                                 <RightArrowIcon />

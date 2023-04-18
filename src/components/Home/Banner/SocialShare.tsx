@@ -38,7 +38,7 @@ const SocialShare = () => {
                 <div className="animate-bounce">
                     <ScrollDownIcon />
                 </div>
-                <p>SCROLL DOWN</p>
+                <p className="text-base font-medium leading-26 text-shark-500">SCROLL DOWN</p>
             </div>
         </div>
     );

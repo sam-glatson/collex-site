@@ -2,10 +2,13 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Head from "next/head";
+import { motion, useScroll } from "framer-motion";
 
 const Layout = (props: any) => {
     const { children } = props;
     const { title } = props;
+    const { scrollYProgress } = useScroll();
+
     return (
         <>
             <Head>
@@ -16,6 +19,7 @@ const Layout = (props: any) => {
             </Head>
             <Header />
             <div className="lg:ml-290 xl:ml-320">
+                <motion.div className="progress-bar" style={{ scaleX: scrollYProgress }} />
                 {children}
                 <Footer />
             </div>
