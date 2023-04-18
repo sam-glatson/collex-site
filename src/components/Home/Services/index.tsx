@@ -28,7 +28,7 @@ const Services = () => {
                         </div>
                     </button>
                 </div>
-                <div className="mt-10 grid gap-7.5 sm:mt-90 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
+                <div className="mt-10 grid gap-7.5 sm:mt-90 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
                     <div className="service-card-animation group flex cursor-pointer flex-col items-center justify-center rounded-10 border border-ship-gray-500 py-10 hover:bg-abbey-500">
                         <div className="flex h-[120px] w-[120px] items-center justify-center rounded-full border border-dashed bg-abbey-500 group-hover:bg-shark-500">
                             <DevelopmentIcon />
