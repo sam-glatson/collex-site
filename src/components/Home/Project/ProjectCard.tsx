@@ -5,7 +5,7 @@ const ProjectCard = (props: any) => {
     const { data } = props;
     // console.log(data);
     return (
-        <div className="project-image relative z-0 overflow-hidden overflow-x-clip">
+        <div className="project-image relative z-0 overflow-hidden">
             <Image
                 src={data.image}
                 alt="project-image"
