@@ -42,7 +42,7 @@
 }
 
 .project-image:hover >div{
-    display: block;
+   display: block;
    animation-name:project-card-animation;
    animation-duration: 400ms;
    animation-iteration-count: 1;
@@ -50,6 +50,13 @@
    animation-direction: normal;
 }
 
+.project-image img {
+    transition: transform 600ms;
+}
+
+.project-image:hover img {
+    transform: scale(1.1);
+}
 
 .project-image-card {
     animation-name: project-image;

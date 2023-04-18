@@ -30,7 +30,7 @@ const Footer = () => {
                             name="about"
                             type="button"
                         >
-                            <div className="flex items-center space-x-1 sm:space-x-4">
+                            <div className="right-arrow-icon-animation flex items-center space-x-1 sm:space-x-4">
                                 <span className="font-bold leading-10 sm:text-lg sm:leading-58">Subscribe</span>
                                 <div>
                                     <RightArrowIcon />
