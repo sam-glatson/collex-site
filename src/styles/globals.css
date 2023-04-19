@@ -127,7 +127,7 @@
 }
 
 .slick-dots {
-    @apply top-24 right-2 lg:right-6 lg:top-2 xl:top-20 sm:top-20 max-w-sm flex justify-center left-0 mx-auto lg:justify-between !important;
+    @apply top-24 right-2 lg:right-6 lg:top-20 xl:top-20 sm:top-20 max-w-sm flex justify-center left-0 mx-auto lg:justify-between !important;
 }
 
 .slick-list {
@@ -136,7 +136,7 @@
 }
 
 .slick-slide {
-    @apply relative items-end flex min-h-[503px] xl:min-h-[453px] justify-center !important;
+    @apply relative items-end flex min-h-[503px] lg:min-h-[600px] xl:min-h-[500px] justify-center !important;
 }
 
 .slick-track {
