@@ -8,7 +8,7 @@ import CopyRights from "./CopyRights";
 const Footer = () => {
     return (
         <footer className="mt-5 font-DMSans lg:mt-10 2xl:mt-120" id="#contact">
-            <div className="flex flex-col items-center justify-between space-y-2.5 bg-blue-ribbon-550 px-4 py-5 sm:px-10 xl:flex-row 2xl:space-y-0 min-[1900px]:px-120">
+            <div className="flex flex-col items-center justify-between space-y-2.5 bg-blue-ribbon-550 px-4 py-5 sm:px-10 xl:flex-row 2xl:space-y-0 4xl:px-120">
                 <div className="flex items-center">
                     <Image src={NewsImage} alt="news-image" width="84" height="78" className="object-cover" />
                     <h3 className="text-xl font-bold leading-50 text-white sm:text-3xl 2xl:text-16xl 2xl:tracking-tight">

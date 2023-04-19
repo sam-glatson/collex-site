@@ -152,6 +152,8 @@ module.exports = {
             screens: {
                 "3xl": "2024px",
                 xs: "500px",
+                "4xl": "1900px",
+                "5xl": "2000px",
             },
             lineHeight: {
                 26: "26px",
@@ -248,12 +250,6 @@ module.exports = {
             },
             height: {
                 9.5: "38px",
-            },
-            gridColumnStart: {
-                2: "2",
-            },
-            gridColumnEnd: {
-                "2x": "2",
             },
         },
     },

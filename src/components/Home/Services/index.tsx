@@ -11,7 +11,7 @@ const Services = () => {
             className="mt-7 bg-shark-500 pb-10 pt-10 text-white sm:mt-10 lg:mt-140 lg:pb-100 lg:pt-32"
             id="services"
         >
-            <div className="px-5 font-DMSans sm:px-14 2xl:px-130 min-[2000px]:px-140">
+            <div className="px-5 font-DMSans sm:px-14 2xl:px-130 5xl:px-140">
                 <h6 className="flex items-center text-lg font-medium leading-22 before:mr-2.5 before:h-3 before:w-3 before:rounded-full before:bg-cornflower-lilac-500 before:content-['']">
                     Our Services
                 </h6>

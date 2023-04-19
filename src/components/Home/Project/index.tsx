@@ -33,10 +33,10 @@ const Project = () => {
     ];
     return (
         <section
-            className="px-4 py-5 font-DMSans sm:mt-10 sm:px-14 lg:mt-120 lg:px-6 2xl:px-14 min-[1900px]:px-120"
+            className="px-4 py-5 font-DMSans sm:mt-10 sm:px-14 lg:mt-120 lg:px-6 2xl:px-14 4xl:px-120"
             id="contact"
         >
-            <div className="grid grid-cols-1 gap-1.5 sm:grid-cols-2 md:items-center md:gap-7.5 min-[2000px]:grid-cols-3">
+            <div className="grid grid-cols-1 gap-1.5 sm:grid-cols-2 md:items-center md:gap-7.5 5xl:grid-cols-3">
                 <div className="mb-2.5 sm:mb-0">
                     <h6 className="flex items-center text-lg font-medium leading-22 text-manatee-500 before:mr-2.5 before:h-3 before:w-3 before:rounded-full before:bg-cornflower-lilac-500 before:content-['']">
                         Our Project

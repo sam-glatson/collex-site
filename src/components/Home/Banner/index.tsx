@@ -26,7 +26,7 @@ const Banner = () => {
                     className="mt-1.5 h-[78px] object-cover sm:mr-10 sm:mt-7"
                 />
             </div>
-            <div className="px-5 sm:px-14 lg:px-6 xl:px-14 min-[1900px]:px-120">
+            <div className="px-5 sm:px-14 lg:px-6 xl:px-14 4xl:px-120">
                 <div className="grid grid-cols-1 items-center space-y-2.5 overflow-x-clip lg:grid-cols-2 lg:space-y-0">
                     <div className="left-right-animation text-center lg:text-left">
                         <h1 className="text-5xl font-bold text-shark-500 sm:text-10xl 2xl:text-15xl 2xl:leading-138">

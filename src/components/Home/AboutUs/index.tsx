@@ -9,7 +9,7 @@ import Image from "next/image";
 import RightArrowIcon from "../../UI/RightArrowIcon";
 const AboutUs = () => {
     return (
-        <section className="mt-7 px-5 font-DMSans sm:mt-10 sm:px-14 lg:mt-130 min-[1900px]:px-120">
+        <section className="mt-7 px-5 font-DMSans sm:mt-10 sm:px-14 lg:mt-130 4xl:px-120">
             <div className="grid grid-cols-1 items-center space-y-5 overflow-x-clip lg:grid-cols-2 lg:space-y-0">
                 <div className="left-right-animation relative">
                     <Image

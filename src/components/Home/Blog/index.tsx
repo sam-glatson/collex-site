@@ -5,10 +5,7 @@ import StudentsImage from "@/public/assets/images/students-image.png";
 import Image from "next/image";
 const Blog = () => {
     return (
-        <section
-            className="mt-10 px-4 py-5 font-DMSans md:mt-10 md:py-0 2xl:mt-120 2xl:px-14 min-[1900px]:px-120"
-            id="blog"
-        >
+        <section className="mt-10 px-4 py-5 font-DMSans md:mt-10 md:py-0 2xl:mt-120 2xl:px-14 4xl:px-120" id="blog">
             <div className="space-y-6 lg:space-y-12">
                 <div className="flex flex-col items-center justify-center">
                     <h6 className="flex items-center text-lg font-medium leading-22 text-manatee-500 before:mr-2.5 before:h-3 before:w-3 before:rounded-full before:bg-cornflower-lilac-500 before:content-['']">
