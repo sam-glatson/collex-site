@@ -5,8 +5,11 @@ import Image from "next/image";
 
 const Specification = () => {
     return (
-        <section className="px-4 py-5 font-DMSans sm:px-14 lg:px-6 2xl:px-14 min-[1900px]:px-120" id="case-studies">
-            <div className="my-5 grid grid-cols-1 items-center justify-items-center space-y-5 overflow-x-clip md:my-10 lg:grid-cols-2 lg:justify-items-start lg:space-y-0">
+        <section
+            className="mt-10 px-4 font-DMSans sm:px-14 lg:mt-120 lg:px-6 2xl:px-14 min-[1900px]:px-120"
+            id="case-studies"
+        >
+            <div className="grid grid-cols-1 items-center justify-items-center space-y-5 overflow-x-clip md:my-10 lg:grid-cols-2 lg:justify-items-start lg:space-y-0">
                 <div className="left-right-animation">
                     <Image
                         alt="puzzle-image"

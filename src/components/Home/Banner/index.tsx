@@ -36,7 +36,7 @@ const Banner = () => {
                         <p className="mt-5 text-xl font-normal leading-8 text-manatee-500">
                             More than 10 years experience in the finance industry
                         </p>
-                        <div className="max-[380px]:flex-col max-[380px]:space-y-2.5 mt-5 flex flex-row items-center justify-center space-x-5 md:mt-10 lg:justify-normal">
+                        <div className="mt-5 flex flex-row items-center justify-center space-x-6 max-[380px]:flex-col max-[380px]:space-y-2.5 md:mt-10 lg:justify-normal">
                             <button
                                 className="cursor-pointer rounded-10 border border-abbey-500 border-opacity-20 px-10"
                                 id="about"
@@ -68,7 +68,7 @@ const Banner = () => {
                         <Image
                             src={PuzzleImage}
                             alt="puzzle-image"
-                            className="min-[530px]:w-[189px] min-[2200px]:bottom-120 min-[2200px]:right-250 absolute -bottom-2.5 right-12 w-[120px] animate-bounce object-cover max-xs:w-[100px] xs:bottom-14 xs:right-16 sm:bottom-12 sm:right-20 md:bottom-70 md:right-160 lg:bottom-4 lg:right-8.5 lg:w-[120px] xl:right-65 xl:w-[160px] 2xl:bottom-5 2xl:right-90 2xl:w-[189px]"
+                            className="absolute -bottom-2.5 right-12 w-[120px] animate-bounce object-cover max-xs:w-[100px] xs:bottom-14 xs:right-16 min-[530px]:w-[189px] sm:bottom-12 sm:right-20 md:bottom-70 md:right-160 lg:bottom-4 lg:right-8.5 lg:w-[120px] xl:right-65 xl:w-[160px] 2xl:bottom-5 2xl:right-90 2xl:w-[189px] min-[2200px]:bottom-120 min-[2200px]:right-250"
                         />
                     </div>
                 </div>

@@ -174,6 +174,7 @@ module.exports = {
                 130: "130px",
                 140: "140px",
                 90: "90px",
+                60: "60px",
             },
             padding: {
                 120: "120px",
@@ -184,6 +185,8 @@ module.exports = {
                 25: "25px",
                 55: "55px",
                 35: "35px",
+                130: "130px",
+                100: "100px",
             },
             fontSize: {
                 "10xl": "85px",
