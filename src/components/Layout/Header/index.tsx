@@ -5,7 +5,7 @@ import EnvelopeImage from "@/public/assets/images/envelop-image.png";
 import Menus from "./Menus";
 const Header = () => {
     return (
-        <header className="fixed z-0 hidden h-[1080px] max-w-xs bg-shark-500 px-25 py-45 font-DMSans lg:block xl:pl-55 xl:pr-35">
+        <header className="fixed z-0 hidden h-full max-w-xs bg-shark-500 px-25 py-45 font-DMSans lg:block xl:pl-55 xl:pr-35">
             <div className="space-y-25">
                 <Image src={LogoImage} alt="logo" className="h-[70px] w-[240px] object-cover" />
                 <Menus />
