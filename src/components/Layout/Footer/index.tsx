@@ -40,7 +40,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-shark-500 px-4 py-5 sm:px-10 2xl:px-60">
+            <div className="bg-shark-500 px-4 sm:px-10 2xl:px-60">
                 <FooterMenus />
                 <CopyRights />
             </div>

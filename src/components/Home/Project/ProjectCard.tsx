@@ -14,8 +14,9 @@ const ProjectCard = (props: any) => {
                 height="395"
             />
             <div className="absolute bottom-0 z-30 hidden rounded-10 bg-white px-2.5 py-5 md:py-10 md:pl-9 md:pr-4">
-                <h4 className="text-sm font-medium leading-10 text-gray-500">
-                    SOLUTION <br /> <span className="text-2xl font-bold text-dark-blue-500">Platform integration</span>
+                <h4 className="text-sm font-medium text-gray-500 sm:leading-10">
+                    SOLUTION <br />
+                    <span className="text-lg font-bold text-dark-blue-500 sm:text-2xl">Platform integration</span>
                 </h4>
             </div>
         </div>

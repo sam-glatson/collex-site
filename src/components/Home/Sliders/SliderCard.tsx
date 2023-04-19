@@ -5,7 +5,7 @@ const SliderCard = () => {
     return (
         <div className="text-center text-white">
             <h3 className="text-lg leading-22">Aleutian Detrains</h3>
-            <div className="flex items-center justify-center space-x-0.9 pt-1.5">
+            <div className="flex items-center justify-center space-x-0.9">
                 <h6 className="text-xs leading-26 text-manatee-500">CEO of (Orin)</h6>
                 <span className="flex space-x-0.9">
                     {[0, 1, 2, 3, 4].map((data) => (
