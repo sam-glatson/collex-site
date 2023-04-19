@@ -249,6 +249,12 @@ module.exports = {
             height: {
                 9.5: "38px",
             },
+            gridColumnStart: {
+                2: "2",
+            },
+            gridColumnEnd: {
+                "2x": "2",
+            },
         },
     },
     plugins: [],

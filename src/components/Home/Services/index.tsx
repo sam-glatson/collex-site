@@ -86,7 +86,7 @@ const Services = () => {
                             </div>
                         </button>
                     </div>
-                    <div className="service-card-animation group flex cursor-pointer flex-col items-center justify-center rounded-[10px] border border-ship-gray-500 py-10 hover:bg-abbey-500">
+                    <div className="service-card-animation group flex cursor-pointer flex-col items-center justify-center rounded-10 border border-ship-gray-500 py-10 hover:bg-abbey-500 md:col-start-2 md:col-end-2 xl:col-start-auto xl:col-end-auto">
                         <div className="flex h-[120px] w-[120px] items-center justify-center rounded-full border border-dashed bg-abbey-500 group-hover:bg-shark-500">
                             <FinanceIcon />
                         </div>
