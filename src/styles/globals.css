@@ -286,7 +286,7 @@
 }
 
 .footer-menus {
-    @apply font-medium text-2xl leading-45 tracking-tightest
+    @apply font-medium text-2xl leading-45 tracking-tightest cursor-pointer;
 }
 
 .button-full-animation:hover::before {
