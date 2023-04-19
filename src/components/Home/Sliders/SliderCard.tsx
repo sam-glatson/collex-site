@@ -13,7 +13,7 @@ const SliderCard = () => {
                     ))}
                 </span>
             </div>
-            <p className="my-4 text-lg leading-7 tracking-tightest sm:text-2xl sm:leading-45">
+            <p className="my-4 max-w-[44rem] text-lg leading-7 tracking-tightest sm:text-2xl sm:leading-45">
                 “Our office is something we are pleased with. We consider it the little magnet; it is wanting to come
                 here and afterward difficult to leave it. Our office is additionally a big name.”
             </p>

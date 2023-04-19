@@ -136,7 +136,7 @@
 }
 
 .slick-slide {
-    @apply relative items-end flex min-h-[503px] xl:min-h-[453px] !important;
+    @apply relative items-end flex min-h-[503px] xl:min-h-[453px] justify-center !important;
 }
 
 .slick-track {
