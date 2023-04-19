@@ -18,7 +18,7 @@
     }
     
     .social-shares > li {
-        @apply flex items-center space-x-4 overflow-x-clip;
+        @apply flex items-center space-x-4 overflow-y-clip cursor-pointer;
     }
 
     .social-shares > li >p {
@@ -211,7 +211,7 @@
   
 .left-right-animation {
     animation-name: left-right-animation;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-direction: normal;
     animation-timing-function: linear;
     animation-iteration-count: 1;
@@ -229,7 +229,7 @@
 
 .right-left-animation {
     animation-name: right-left-animation;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-direction: normal;
     animation-timing-function: linear;
     animation-iteration-count: 1;

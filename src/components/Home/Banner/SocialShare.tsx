@@ -6,6 +6,11 @@ import Youtube from "@/components/UI/YoutubeIcon";
 import React from "react";
 
 const SocialShare = () => {
+    const scrollingElement = () => {
+        document.body.scrollTop = 10000;
+
+        document.documentElement.scrollTop = 10000;
+    };
     return (
         <div className="mt-5 flex flex-col items-center justify-between space-y-5 font-DMSans sm:mt-10 lg:mt-120 lg:flex-row lg:space-y-0">
             <ul className="social-shares grid grid-cols-2 gap-5 sm:grid-cols-4">
@@ -35,10 +40,10 @@ const SocialShare = () => {
                 </li>
             </ul>
             <div className="flex space-x-3.5">
-                <div className="animate-bounce">
+                <div className="animate-bounce cursor-pointer" onClick={() => scrollingElement()}>
                     <ScrollDownIcon />
                 </div>
-                <p className="text-base font-medium leading-26 text-shark-500">SCROLL DOWN</p>
+                <p className="cursor-pointer text-base font-medium leading-26 text-shark-500">SCROLL DOWN</p>
             </div>
         </div>
     );
