@@ -15,7 +15,7 @@ const AboutUs = () => {
                     <Image
                         src={PuzzleImage}
                         alt="puzzle-image"
-                        className="absolute bottom-0 z-1 animate-bounce object-cover max-[400px]:w-[90px]"
+                        className="max-[400px]:w-[90px] absolute bottom-0 z-1 animate-bounce object-cover"
                         width="148"
                         height="148"
                     />
@@ -34,7 +34,7 @@ const AboutUs = () => {
                         scaling beautiful, usable products with blazing-fast efficiency
                     </p>
                     <button
-                        className="group mt-5 cursor-pointer rounded-10 border border-abbey-500 border-opacity-20 px-6 sm:px-14 md:mt-14 lg:px-6 min-[1037px]:px-14"
+                        className="min-[1037px]:px-14 group mt-5 cursor-pointer rounded-10 border border-abbey-500 border-opacity-20 px-6 sm:px-14 md:mt-14 lg:px-6"
                         id="about"
                         name="about"
                         type="button"
@@ -48,7 +48,7 @@ const AboutUs = () => {
                     </button>
                 </div>
             </div>
-            <div className="mt-5 grid grid-cols-2 items-center min-[425px]:justify-items-start md:grid-cols-3 lg:grid-cols-4 xl:mt-130 xl:justify-items-center 2xl:grid-cols-5 2xl:space-x-25">
+            <div className="min-[425px]:justify-items-start mt-5 grid grid-cols-2 items-center md:grid-cols-3 lg:grid-cols-4 xl:mt-130 xl:justify-items-center 2xl:grid-cols-5 2xl:space-x-25">
                 <Image
                     src={PaySafeImage}
                     alt="payslip-image"

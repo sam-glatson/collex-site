@@ -289,17 +289,17 @@
     @apply font-medium text-2xl leading-45 tracking-tightest
 }
 
-/* .button-full-animation:hover::before {
+.button-full-animation:hover::before {
     animation-name: button-full-animation;
-    animation-duration: 500ms;
-    animation-iteration-count: 1;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
     animation-direction: normal;
 }
 
 @keyframes button-full-animation {
-    0%{left: -70px;width: 240px; border-bottom-left-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
-    25%{left: -60px;width: 250px;height: 25%; border-bottom-left-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
-    50%{left: -70px;width: 260px;height: 50%; border-bottom-left-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
-    75%{left: -60px;width: 270px;height: 75%; border-bottom-left-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
-    100%{left: -20px;width: 200px;height: 100%; border-bottom-left-radius: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
-} */
+    0%{left: -40px;width: 225px;border-radius: 10px;border-bottom-color: #ffadad;}
+    25%{left: -40px;border-left-color: #ffadad; border-bottom-color: transparent;width: 225px;border-radius: 10px;}
+    50%{left: -40px;border-top-color: #ffadad;border-left-color:transparent;width: 225px;border-radius: 10px;}
+    75%{left: -40px;border-right-color: #ffadad;border-top-color: transparent;width: 225px;border-radius: 10px;}
+    100%{left: -40px;border-bottom-color: #ffadad;border-right-color: transparent;width: 225px;border-radius: 10px;}
+}

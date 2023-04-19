@@ -43,7 +43,7 @@ const Banner = () => {
                                 name="about"
                                 type="button"
                             >
-                                <div className="right-arrow-icon-animation button-full-animation relative flex items-center space-x-4 before:absolute before:bottom-0 before:-z-10 before:h-[3px] before:w-full before:bg-cornflower-lilac-500 before:content-['']">
+                                <div className="right-arrow-icon-animation button-full-animation relative flex items-center space-x-4 before:absolute before:bottom-0 before:-z-10 before:h-full before:w-full before:border-[2px] before:border-transparent before:border-b-cornflower-lilac-500 before:content-['']">
                                     <span className="text-lg font-bold leading-70">About Collax</span>
                                     <div>
                                         <RightArrowIcon />

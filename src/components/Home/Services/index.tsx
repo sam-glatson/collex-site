@@ -8,14 +8,14 @@ import FinanceIcon from "../../UI/FinanceIcon";
 const Services = () => {
     return (
         <section className="mt-7 bg-shark-500 py-60 text-white sm:mt-10 lg:mt-130" id="services">
-            <div className="px-5 font-DMSans sm:px-14 min-[2000px]:px-140">
+            <div className="min-[2000px]:px-140 px-5 font-DMSans sm:px-14">
                 <h6 className="flex items-center text-lg font-medium leading-22 before:mr-2.5 before:h-3 before:w-3 before:rounded-full before:bg-cornflower-lilac-500 before:content-['']">
                     Our Services
                 </h6>
                 <div className="mt-4 flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
                     <h2 className="text-3xl font-bold leading-72 sm:text-17xl">What we do</h2>
                     <button
-                        className="cursor-pointer rounded-10 border border-abbey-500 border-opacity-20 px-6 sm:px-14 min-[1024px]:px-6 min-[1037px]:px-14"
+                        className="min-[1024px]:px-6 min-[1037px]:px-14 cursor-pointer rounded-10 border border-abbey-500 border-opacity-20 px-6 sm:px-14"
                         id="about"
                         name="about"
                         type="button"
