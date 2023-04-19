@@ -5,11 +5,11 @@ const ProjectCard = (props: any) => {
     const { data } = props;
     // console.log(data);
     return (
-        <div className="project-image relative z-0 overflow-hidden">
+        <div className="project-image relative z-0 overflow-hidden rounded-10">
             <Image
                 src={data.image}
                 alt="project-image"
-                className="project-image-card relative w-full cursor-pointer rounded-10 object-cover"
+                className="project-image-card relative w-full cursor-pointer object-cover"
                 width="633"
                 height="395"
             />

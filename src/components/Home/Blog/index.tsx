@@ -17,13 +17,13 @@ const Blog = () => {
                 </div>
                 <div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">
                     <div>
-                        <div className="blog-image overflow-hidden">
+                        <div className="blog-image overflow-hidden rounded-xl">
                             <Image
                                 src={CoupleImage}
                                 alt="couple-image"
                                 width="412"
                                 height="315"
-                                className="w-full cursor-pointer rounded-xl object-cover"
+                                className="w-full cursor-pointer  object-cover"
                             />
                         </div>
 
@@ -44,16 +44,15 @@ const Blog = () => {
                         </p>
                     </div>
                     <div>
-                        <div className="blog-image overflow-hidden">
+                        <div className="blog-image overflow-hidden rounded-xl">
                             <Image
                                 src={ClothsImage}
                                 alt="cloths-image"
                                 width="412"
                                 height="315"
-                                className="w-full cursor-pointer rounded-xl object-cover"
+                                className="w-full cursor-pointer  object-cover"
                             />
                         </div>
-
                         <div className="mt-7 flex space-x-4">
                             <div className="min-[375]:px-5 group cursor-pointer rounded-10 bg-[#5856e91a] px-2.5 hover:bg-blue-ribbon-550">
                                 <p className="text-sm font-bold uppercase leading-35 text-blue-ribbon-500 group-hover:text-white">
@@ -71,13 +70,13 @@ const Blog = () => {
                         </p>
                     </div>
                     <div>
-                        <div className="blog-image overflow-hidden">
+                        <div className="blog-image overflow-hidden rounded-xl">
                             <Image
                                 src={StudentsImage}
                                 alt="students-image"
                                 width="412"
                                 height="315"
-                                className="w-full cursor-pointer rounded-xl object-cover"
+                                className="w-full cursor-pointer  object-cover"
                             />
                         </div>
 
