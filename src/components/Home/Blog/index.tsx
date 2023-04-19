@@ -23,13 +23,13 @@ const Blog = () => {
                                 alt="couple-image"
                                 width="412"
                                 height="315"
-                                className="w-full cursor-pointer  object-cover"
+                                className="w-full cursor-pointer object-cover"
                             />
                         </div>
 
                         <div className="mt-7 flex space-x-4">
                             <div className="min-[375]:px-5 group cursor-pointer rounded-10 bg-[#5856e91a] px-2.5 hover:bg-blue-ribbon-550">
-                                <p className="text-sm font-bold uppercase  leading-35 text-blue-ribbon-500 group-hover:text-white">
+                                <p className="text-sm font-bold uppercase leading-35 text-blue-ribbon-500 group-hover:text-white">
                                     Development
                                 </p>
                             </div>
@@ -50,7 +50,7 @@ const Blog = () => {
                                 alt="cloths-image"
                                 width="412"
                                 height="315"
-                                className="w-full cursor-pointer  object-cover"
+                                className="w-full cursor-pointer object-cover"
                             />
                         </div>
                         <div className="mt-7 flex space-x-4">
@@ -76,18 +76,18 @@ const Blog = () => {
                                 alt="students-image"
                                 width="412"
                                 height="315"
-                                className="w-full cursor-pointer  object-cover"
+                                className="w-full cursor-pointer object-cover"
                             />
                         </div>
 
                         <div className="mt-7 flex space-x-4">
-                            <div className="min-[375]:px-5 group cursor-pointer rounded-10  bg-[#5856e91a] px-2.5 hover:bg-blue-ribbon-550 ">
-                                <p className="text-sm font-bold uppercase  leading-35 text-blue-ribbon-500 group-hover:text-white">
+                            <div className="min-[375]:px-5 group cursor-pointer rounded-10 bg-[#5856e91a] px-2.5 hover:bg-blue-ribbon-550">
+                                <p className="text-sm font-bold uppercase leading-35 text-blue-ribbon-500 group-hover:text-white">
                                     Development
                                 </p>
                             </div>
                             <div className="min-[375]:px-5 rounded-10 bg-[#5856e91a] px-2.5">
-                                <p className="text-sm font-bold uppercase  leading-35 text-manatee-500">
+                                <p className="text-sm font-bold uppercase leading-35 text-manatee-500">
                                     February. 3.2023
                                 </p>
                             </div>
