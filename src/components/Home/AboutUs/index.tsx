@@ -1,12 +1,12 @@
-import React from "react";
-import PuzzleImage from "@/public/assets/images/puzzle-image.png";
-import ManImage from "@/public/assets/images/about-image.png";
-import PaySafeImage from "@/public/assets/images/paysafe-image.png";
-import QlikqImage from "@/public/assets/images/qlikq-image.png";
-import SquareImage from "@/public/assets/images/square-image.png";
-import WalmartImage from "@/public/assets/images/walmart-image.png";
-import Image from "next/image";
-import RightArrowIcon from "../../UI/RightArrowIcon";
+import React from 'react';
+import PuzzleImage from '@/public/assets/images/puzzle-image.png';
+import ManImage from '@/public/assets/images/about-image.png';
+import PaySafeImage from '@/public/assets/images/paysafe-image.png';
+import QlikqImage from '@/public/assets/images/qlikq-image.png';
+import SquareImage from '@/public/assets/images/square-image.png';
+import WalmartImage from '@/public/assets/images/walmart-image.png';
+import Image from 'next/image';
+import RightArrowIcon from '../../UI/RightArrowIcon';
 const AboutUs = () => {
     return (
         <section className="mt-7 px-5 font-DMSans sm:mt-10 sm:px-14 lg:mt-130 4xl:px-120">
@@ -15,7 +15,7 @@ const AboutUs = () => {
                     <Image
                         src={PuzzleImage}
                         alt="puzzle-image"
-                        className="max-[400px]:w-[90px] absolute bottom-0 z-1 animate-bounce object-cover"
+                        className="absolute bottom-0 z-1 animate-bounce object-cover max-[400px]:w-[90px]"
                         width="148"
                         height="148"
                     />
@@ -34,7 +34,7 @@ const AboutUs = () => {
                         scaling beautiful, usable products with blazing-fast efficiency
                     </p>
                     <button
-                        className="min-[1037px]:px-14 group mt-5 cursor-pointer rounded-10 border border-abbey-500 border-opacity-20 px-6 sm:px-14 md:mt-14 lg:px-6"
+                        className="group mt-5 cursor-pointer rounded-10 border border-abbey-500 border-opacity-20 px-6 sm:px-14 md:mt-14 lg:px-6 min-[1037px]:px-14"
                         id="about"
                         name="about"
                         type="button"
@@ -48,7 +48,7 @@ const AboutUs = () => {
                     </button>
                 </div>
             </div>
-            <div className="min-[425px]:justify-items-start mt-5 grid grid-cols-2 items-center md:grid-cols-3 lg:grid-cols-4 xl:mt-130 xl:justify-items-center 2xl:grid-cols-5 2xl:space-x-25">
+            <div className="mt-5 grid grid-cols-2 items-center min-[425px]:justify-items-start md:grid-cols-3 lg:grid-cols-4 xl:mt-130 xl:justify-items-center 2xl:grid-cols-5 2xl:space-x-25">
                 <Image
                     src={PaySafeImage}
                     alt="payslip-image"

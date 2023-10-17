@@ -294,6 +294,7 @@
     animation-duration: 800ms;
     animation-iteration-count: infinite;
     animation-direction: normal;
+    animation-timing-function: linear;
 }
 
 @keyframes button-full-animation {
